@@ -1,4 +1,3 @@
-repo init -u https://github.com/Evolution-X/manifest -b udc --git-lfs
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 git clone https://github.com/xiaomi-sm6150-phoenix/android_device_xiaomi_phoenix.git --depth 1 b- ursa device/xiaomi/sm6150
